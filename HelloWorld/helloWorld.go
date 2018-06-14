@@ -7,6 +7,7 @@ func main() {
 
 	x := 42
 	y := "Abebe"
+	x = 8
 	fmt.Println(x, y)
 
 }
