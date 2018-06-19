@@ -1,9 +1,20 @@
 package main
 
 import (
-	"bufio"
-	"fmt"
+	"image"
+	"image/color"
+	"image/gif"
+	"io"
+	"math"
+	"math/rand"
 	"os"
+)
+
+var palette = []color.Color{color.White, color.Black}
+
+const (
+	whiteIndex = 0
+	blackIndex = 1
 )
 
 func main() {
@@ -15,8 +26,6 @@ func main() {
 	//NOTE: ignoring potential errors from imput.err()
 	for line, n := range counts {
 
-		if n > 1 {
-			fmt.Printf("%d\t%s\n", n, line)
 		}
 	}
 
